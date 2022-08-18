@@ -236,7 +236,7 @@ nav {
 }
 
 input:checked + .slider {
-    background-color: #66bb6a;
+    background-color: #b98621;
 }
 
 input:checked + .slider:before {
@@ -272,4 +272,20 @@ input:checked + .slider:before {
         border-left: none;
         padding-left: 0;
     }
+}
+svg {
+    margin: 11px;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+svg.sun {
+    color: inherit;
+    margin-top: 12px;
+    margin-right: 4px;
+}
+svg.moon {
+    color: #141b1f;
+    margin-top: 12px;
+    margin-left: 4px;
 }
